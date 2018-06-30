@@ -1,0 +1,112 @@
+{
+  "language":"zh-hans",
+	"plugins": [
+		"-search",
+		"fontsettings",
+		"search-plus",
+		"simple-page-toc",
+		"github",
+		"prism",
+		"prism-themes",
+		"advanced-emoji",
+		"anchors",
+		"include-codeblock",
+		"ace",
+		"emphasize",
+		"katex",
+		"splitter",
+		"mermaid-gb3",
+		"tbfed-pagefooter",
+		"anchor-navigation-ex",
+		"favicon",
+		"todo",
+		"terminal",
+		"alerts",
+		"include-csv",
+		"puml",
+		"klipse",
+		"-sharing",
+		"sharing-plus",
+		"donate"
+],
+
+"pluginsConfig": {
+	
+		"donate": {
+			"wechat": "http://book.wshare.site/images/weixin.PNG",
+			"alipay": "http://book.wshare.site/images/zhifubao.PNG",
+			"button": "赞赏支持",
+			"alipayText": "支付宝捐赠",
+			"wechatText": "微信捐赠"
+		},
+		"fontsettings": {
+			"theme": "white",
+			"family": "sans",
+			"size": 2
+		},
+		"theme-default": {
+				"showLevel": true
+		},
+		"prism": {
+				"css": [
+						"prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+				]
+		},
+		"github": {
+				"url": "https://github.com/JieWaZi/network-protocol"
+		},
+		"include-codeblock": {
+				"template": "ace",
+				"unindent": true,
+				"edit": true
+		},
+		"sharing": {
+			 "douban": false,
+			 "facebook": false,
+			 "google": true,
+			 "hatenaBookmark": false,
+			 "instapaper": false,
+			 "line": false,
+			 "linkedin": true,
+			 "messenger": false,
+			 "pocket": false,
+			 "qq": false,
+			 "qzone": false,
+			 "stumbleupon": false,
+			 "twitter": false,
+			 "viber": false,
+			 "vk": false,
+			 "weibo": true,
+			 "whatsapp": false,
+			 "all": [
+					 "facebook", "google", "twitter",
+					 "weibo", "instapaper", "linkedin",
+					 "pocket", "stumbleupon", "qq", "qzone"
+			 ]
+	 },
+		"tbfed-pagefooter": {
+				"copyright": "Copyright © JieWaZi 2018",
+				"modify_label": "该文件修订时间：",
+				"modify_format": "YYYY-MM-DD HH:mm:ss"
+		},
+		"simple-page-toc": {
+				"maxDepth": 3,
+				"skipFirstH1": true
+		},
+		"anchor-navigation-ex": {
+				"isRewritePageTitle": false,
+				"tocLevel1Icon": "fa fa-hand-o-right",
+				"tocLevel2Icon": "fa fa-hand-o-right",
+				"tocLevel3Icon": "fa fa-hand-o-right"
+		},
+		"favicon": {
+				"shortcut": "favicon.ico",
+				"bookmark": "favicon.ico"
+		},
+		"terminal": {
+				"copyButtons": true,
+				"fade": false,
+				"style": "flat"
+		}
+	}
+}
